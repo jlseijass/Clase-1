@@ -5,6 +5,6 @@ nombreDelaVariable + besoDelaVariable
 console,console.log(nombreDelaVariable+besoDelaVariable);
 
 let PrimerNombre = Tito 
-let SegundoNombre = El Bambino 
+let SegundoNombre = ElBambino 
 
 console.log(PrimerNombre+SegundoNombre)

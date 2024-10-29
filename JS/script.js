@@ -1,13 +1,10 @@
-const usuarios = [
-{nombre: "Ana", edad:20,aceptoTerminos:false},
-{nombre: "Luis", edad:17,aceptoTerminos:true},
-{nombre: "Carlos", edad:18,aceptoTerminos:true},
-{nombre: "María", edad:15,aceptoTerminos:true},
-{nombre: "Angela", edad:21,aceptoTerminos:true}
-]
+const firstName = prompt("Ingresa tu nombre:");
+const lastName = prompt("Ingresa tu apellido:");
+const age = parseInt(prompt("Ingresa tu edad:"));
+const years = parseInt(prompt("Cuantos años más pasarán en 4 años?:"));
 
-for(let i = 0; i <usuarios.length; i++) {
-   if(usuarios[i].edad >=18 && usuarios[i].aceptoTerminos) {
-    alert(usuarios[i].nombre);
-   }
-}
+// Calculate the future age
+const futureAge = age + years;
+
+// Display the final message
+alert(`Hola, ${firstName} ${lastName}. Bienvenido a nuestra base de datos. Tu edad es ${age} años. Dentro de ${years} años, vas a tener ${futureAge}.`);
